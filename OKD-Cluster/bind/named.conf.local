@@ -1,0 +1,9 @@
+zone "labcluster.com" {
+    type master;
+    file "/etc/named/zones/db.okd.labcluster"; 
+};
+
+zone "10.in-addr.arpa" {
+    type master;
+    file "/etc/named/zones/db.10"; 
+};

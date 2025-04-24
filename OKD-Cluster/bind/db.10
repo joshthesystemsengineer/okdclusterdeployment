@@ -1,0 +1,24 @@
+$TTL 1W
+@	IN	SOA	ns1.labcluster.com.	root (
+			2025041800	; serial
+			3H		; refresh (3 hours)
+			30M		; retry (30 minutes)
+			2W		; expiry (2 weeks)
+			1W )		; minimum (1 week)
+	IN	NS	ns1.labcluster.com.
+;
+2.0.0.10.in-addr.arpa.	IN	PTR	api.okd.labcluster.com. 
+2.0.0.10.in-addr.arpa.	IN	PTR	api-int.okd.labcluster.com. 
+2.0.0.10.in-addr.arpa.  IN      PTR     services.okd.labcluster.com.
+;
+9.0.0.10.in-addr.arpa.	IN	PTR	bootstrap.okd.labcluster.com. 
+;
+3.0.0.10.in-addr.arpa.	IN	PTR	control-plane1.okd.labcluster.com. 
+4.0.0.10.in-addr.arpa.	IN	PTR	control-plane2.okd.labcluster.com. 
+5.0.0.10.in-addr.arpa.	IN	PTR	control-plane3.okd.labcluster.com. 
+;
+6.0.0.10.in-addr.arpa.	IN	PTR	compute1.okd.labcluster.com. 
+7.0.0.10.in-addr.arpa.	IN	PTR	compute2.okd.labcluster.com. 
+8.0.0.10.in-addr.arpa.	IN	PTR	compute3.okd.labcluster.com.
+;
+;EOF
