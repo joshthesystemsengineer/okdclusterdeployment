@@ -11,3 +11,4 @@ This repository was made to show the configs I used to deploy my own cluster in 
 In an effort to maybe save people after me a step I have created an application that updates the config files based on what you type in your configuration. This will really help so you don't have as many typos. Typos can really be the bain of your existence and cause this already hard task to become even hard.
 
 Website Link:
+https://clusterhelper.com/
